@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build:css": "postcss src/style.css -o src/style.css"
   },
   "author": "haibint",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "postcss": "^7.0.14",
+    "tailwindcss": "^0.7.4"
   }
 }
