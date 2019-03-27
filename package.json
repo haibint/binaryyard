@@ -1,11 +1,15 @@
 {
-  "name": "tailwind_web_app",
+  "name": "binaryyard",
   "version": "1.0.0",
   "description": "\"This is a project for learning tailwind css and gh-pages deployment\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "haibint",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
